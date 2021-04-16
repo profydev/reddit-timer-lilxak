@@ -1,1 +1,11 @@
 @import-normalize;
+
+@font-face {
+    font-family: "Bitter";
+    src: url('./fonts/Bitter-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+}
