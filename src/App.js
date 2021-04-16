@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './Header';
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        App Placeholder
-      </div>
+      <Header />
       <Switch>
         <Route exact path="/">
           Home
