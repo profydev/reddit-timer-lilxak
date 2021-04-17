@@ -6,7 +6,7 @@ function Header() {
     <header>
       <nav>
         <Link to="/">
-          <img src="/logo.svg" alt="Reddit Timer" />
+          <img className="header-logo" src="/logo.svg" alt="Reddit Timer" />
         </Link>
         <div className="header-nav-links">
           <Link to="/search"> Search </Link>

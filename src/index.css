@@ -9,3 +9,34 @@
     font-family: "Montserrat";
     src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
 }
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header-logo {
+    margin: 32px 0;
+}
+
+.header-nav-links{
+    margin: 43px 0;
+}
+
+
+.header-nav-links a {
+    margin-left: 21px;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #636363;
+    font-size: 16px;
+
+}
