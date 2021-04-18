@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './Header';
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <div>
         App Placeholder
       </div>
