@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className={styles.nav_bar}>
         <Link to="/">
-          <img className="header-logo" src="/logo.svg" alt="Reddit Timer" />
+          <img className={styles.header_logo} src="/logo.svg" alt="Reddit Timer" />
         </Link>
-        <div className="header-nav-links">
+        <div className={styles.header_nav_links}>
           <Link to="/search?sub=javascript"> Search </Link>
           <Link to="/#how-it-works"> How it works </Link>
           <Link to="/#about"> About </Link>
